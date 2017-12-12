@@ -135,8 +135,8 @@ namespace FinalLibraryApplication
             sb.Append("BookTitle = '").Append(library.BookTitle).Append("',");
             sb.Append("Author = ").Append(library.Author).Append(",");
             sb.Append("Genre = ").Append(library.Genre).Append(",");
-           sb.Append("Series = ").Append(library.Series).Append(",");
-          sb.Append("ISBN = ").Append(library.ISBN).Append(",");
+            sb.Append("Series = ").Append(library.Series).Append(",");
+            sb.Append("ISBN = ").Append(library.ISBN).Append(",");
             sb.Append("WHERE ");
             sb.Append("ID = ").Append(library.ID);
             string sqlCommandString = sb.ToString();

@@ -12,7 +12,7 @@ namespace FinalLibraryApplication
         {
             None,
             ListAllTheBooks,
-            DisplayLibraryDetail,
+            DisplayLibraryDetails,
             RemoveABook,
             AddABook,
             UpatedABook,

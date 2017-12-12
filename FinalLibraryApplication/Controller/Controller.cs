@@ -48,7 +48,7 @@ namespace FinalLibraryApplication
                     case AppEnum.LibraryManager.ListAllTheBooks:
                         ListAllTheBooks();
                         break;
-                    case AppEnum.LibraryManager.DisplayLibraryDetail:
+                    case AppEnum.LibraryManager.DisplayLibraryDetails:
                         DisplayLibraryDetails();
                         break;
                     case AppEnum.LibraryManager.RemoveABook:

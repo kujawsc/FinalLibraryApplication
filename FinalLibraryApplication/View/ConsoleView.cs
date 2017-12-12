@@ -60,7 +60,7 @@ namespace FinalLibraryApplication
                     userActionChoice = AppEnum.LibraryManager.ListAllTheBooks;
                     break;
                 case '2':
-                    userActionChoice = AppEnum.LibraryManager.DisplayLibraryDetail;
+                    userActionChoice = AppEnum.LibraryManager.DisplayLibraryDetails;
                     break;
                 case '3':
                     userActionChoice = AppEnum.LibraryManager.AddABook;
@@ -150,7 +150,7 @@ namespace FinalLibraryApplication
             DisplayMessage("");
 
             DisplayMessage(String.Format("ISBN: {0}", library.ISBN));
-           DisplayMessage(""); 
+            DisplayMessage("");
 
             DisplayMessage(String.Format("ID: {0}", library.ID.ToString()));
 
